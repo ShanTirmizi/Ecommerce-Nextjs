@@ -3,6 +3,7 @@ const data = {
     {
       id: 1,
       name: 'Product 1',
+      slug: 'product-1',
       price: '1.00',
       category: 'Category 1',
       description: 'Description 1',
@@ -15,6 +16,7 @@ const data = {
     {
       id: 2,
       name: 'Product 2',
+      slug: 'product-2',
       price: '2.00',
       category: 'Category 2',
       description: 'Description 2',
@@ -27,6 +29,7 @@ const data = {
     {
       id: 3,
       name: 'Product 3',
+      slug: 'product-3',
       price: '14.00',
       category: 'Category 3',
       description: 'Description 3',
@@ -39,6 +42,7 @@ const data = {
     {
       id: 4,
       name: 'Product 4',
+      slug: 'product-4',
       price: '80.90',
       category: 'Category 4',
       description: 'Description 4',
@@ -51,6 +55,7 @@ const data = {
     {
       id: 5,
       name: 'Product 5',
+      slug: 'product-5',
       price: '180.00',
       category: 'Category 5',
       description: 'Description 5',
