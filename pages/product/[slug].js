@@ -17,7 +17,11 @@ const ProductScreen = () => {
       <img src={product.image} alt={product.name} />
       <p>{product.price}</p>
       <p>{product.stock}</p>
-      <button>Add to Cart</button>
+      {product.stock > 0 ? (
+        <button>Add to Cart</button>
+      ) : (
+        <div>not in stock</div>
+      )}
     </>
   );
 };
